@@ -1,0 +1,11 @@
+[package]
+name = "Rust-Curl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.9"
+clap = { version = "4.5.20", features = ["derive"] }
+colored = "2.1.0"
+tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros"] }
+http = "1.1.0"
