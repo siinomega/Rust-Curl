@@ -29,6 +29,7 @@ reqwest = "0.11"
 tokio = { version = "1.41.0", features = ["rt", "rt-multi-thread", "macros"] }
 clap = "4.1.6"
 colored = "2.1.0"
+http = "1.1.0"
 ```
 ## 💻 Installation
 
