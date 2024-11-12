@@ -24,11 +24,10 @@ Before running Rust-Curl, ensure you have:
 Add these dependencies to your `Cargo.toml`:
 
 ```toml
-[dependencies]
-reqwest = "0.11"
-tokio = { version = "1.41.0", features = ["rt", "rt-multi-thread", "macros"] }
-clap = "4.1.6"
+reqwest = "0.12.9"
+clap = { version = "4.5.20", features = ["derive"] }
 colored = "2.1.0"
+tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros"] }
 http = "1.1.0"
 ```
 ## 💻 Installation
